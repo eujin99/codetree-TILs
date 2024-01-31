@@ -11,6 +11,8 @@ public class Main {
         }
         if(a<b){
             System.out.println(b-a);
+        } else{
+            System.out.println("0");
         }
     }
 }
