@@ -9,23 +9,15 @@ public class Main {
         int b_math = sc.nextInt();
         int b_eng = sc.nextInt();
 
-        int top_math = a_math;
-        if (top_math < b_math){
-            top_math = b_math;
-        }
-        
-        if (top_math == a_math){
+        if (a_math > b_math){
             System.out.println("A");
-        }else if (top_math == b_math){
+        } else if (a_math < b_math){
             System.out.println("B");
-        }
-
-        if(a_math == b_math){
-            int top_eng = a_eng;
-            if(top_eng < b_eng){
-                System.out.println("B");
-            } if(top_eng == a_eng){
+        } else{
+            if (a_eng > b_eng){
                 System.out.println("A");
+            } if(a_eng < b_eng){
+                System.out.println("B");
             }
         }
 
