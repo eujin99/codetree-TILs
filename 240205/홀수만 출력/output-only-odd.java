@@ -7,8 +7,11 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        for(int i =0; i <=b; i += 2){
-            System.out.print((a+i) + " ");
+        // a부터 b까지의 홀수를 출력
+        for(int i = a; i <= b; i++){
+            if(i % 2 != 0){ // 홀수인 경우에만 출력
+                System.out.print(i + " ");
+            }
         }
     }
 }
