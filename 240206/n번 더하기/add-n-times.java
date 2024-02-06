@@ -6,9 +6,9 @@ public class Main {
        int a = sc.nextInt();
        int n = sc.nextInt();
 
-       for(int i=a+n; i<=((a+n)+(a*n)); i+=n){
-
-        System.out.println(i);
+       for(int i = 0; i < n; i++){
+           a += n;
+           System.out.println(a);
        }
     }
 }
