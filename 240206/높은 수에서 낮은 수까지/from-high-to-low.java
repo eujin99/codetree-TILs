@@ -19,5 +19,8 @@ public class Main {
                 System.out.print(i+ " ");
             }
         }
+        if(a==b){
+            System.out.print(a);
+        }
     }
 }
