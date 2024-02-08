@@ -9,11 +9,22 @@ public class Main {
 
         int num = 0;
 
+
+        if(a<b){
         for(int i=a; i<=b; i++){
             if(i%5==0){
                 num+=i;
             }
         }
-        System.out.print(num);
+    }
+
+        if(a>b){
+         for(int i=b; i<=a; i++){
+            if(i%5==0){
+                num+=i;
+            }
+         }
+    }
+    System.out.print(num);
     }
 }
