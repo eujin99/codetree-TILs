@@ -5,14 +5,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int count = 0;
-        int divisor = 1;
-        
-        while (n > 1) {
-            n /= divisor;
-            divisor++;
+
+        for(int i = 1; i<100; i++){
+            if(n<=1){
+                System.out.print(count);
+                break;
+            }
+            n /=i;
             count++;
         }
-        
-        System.out.println(count);
+
     }
 }
