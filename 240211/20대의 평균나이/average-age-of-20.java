@@ -20,6 +20,7 @@ public class Main {
             }
             double avg = (double)sum/cnt;
                       System.out.printf("%.2f",avg);
+                      sc.close();
 
-        }
     }
+}
