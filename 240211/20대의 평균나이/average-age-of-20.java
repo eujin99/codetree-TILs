@@ -8,7 +8,7 @@ public class Main {
         int sum=0;
         int i = 0;
 
-        while(true){
+        while (sc.hasNextInt()) {
             age = sc.nextInt();
 
             if(age>=30){
