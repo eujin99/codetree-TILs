@@ -6,19 +6,18 @@ public class Main {
 
         int age;
         int sum = 0;
-        int i = 0;
+        int count = 0;
 
-        while (sc.hasNextInt()) {
+        while (true) {
             age = sc.nextInt();
 
-            if (age >= 30) {
+            if (age < 20 || age >= 30) {
                 break;
             }
-            i += age;
-            sum++;
+            sum += age;
+            count++;
         }
-
-        double avg = (double) i / sum;
+        double avg = (double) sum / count;
         System.out.printf("%.2f", avg);
     }
 }
