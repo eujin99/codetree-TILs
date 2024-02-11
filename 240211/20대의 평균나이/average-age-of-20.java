@@ -18,11 +18,6 @@ public class Main {
             sum++;
         }
 
-        if (sum == 0) {
-            System.out.println("No input provided.");
-            return;
-        }
-
         double avg = (double) i / sum;
         System.out.printf("%.2f", avg);
     }
