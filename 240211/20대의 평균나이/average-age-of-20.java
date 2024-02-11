@@ -8,7 +8,7 @@ public class Main {
         int sum = 0;
         int i = 0;
 
-        while (true) {
+        while (sc.hasNextInt()) {
             age = sc.nextInt();
 
             if (age >= 30) {
@@ -16,6 +16,11 @@ public class Main {
             }
             i += age;
             sum++;
+        }
+
+        if (sum == 0) {
+            System.out.println("No input provided.");
+            return;
         }
 
         double avg = (double) i / sum;
