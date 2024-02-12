@@ -16,7 +16,7 @@ public class Main {
                 n=n*3+1;
                 sum++;
             }
-            if(n==1){
+            if(n<=1){
                 break;
             }
         }
