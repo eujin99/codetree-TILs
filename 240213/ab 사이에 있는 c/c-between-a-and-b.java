@@ -16,7 +16,7 @@ public class Main {
             }
         }
 
-        if(ee=true){
+        if(ee==true){
             System.out.print("YES");
         }
             else{
