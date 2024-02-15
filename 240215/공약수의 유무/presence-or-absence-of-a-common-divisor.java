@@ -8,15 +8,15 @@ public class Main {
         int b = sc.nextInt();
         boolean e = false;
 
-        for(int i=a; i<=b; i++){
-            if(i%1920==0 && i%2880==0){
+        for (int i = a; i <= b; i++) {
+            if (1920 % i == 0 && 2880 % i == 0) {
                 e = true;
                 break;
             }
         }
-        if(e){
+        if (e) { // e가 true이면 공약수가 존재
             System.out.print("1");
-        }else{
+        } else {
             System.out.print("0");
         }
     }
