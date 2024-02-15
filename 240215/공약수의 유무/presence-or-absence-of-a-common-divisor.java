@@ -14,7 +14,7 @@ public class Main {
                 break;
             }
         }
-        if(e=true){
+        if(e){
             System.out.print("1");
         }else{
             System.out.print("0");
