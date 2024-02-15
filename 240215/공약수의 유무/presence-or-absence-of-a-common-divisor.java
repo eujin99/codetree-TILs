@@ -6,14 +6,11 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        boolean e ;
+        boolean e = false;
 
         for(int i=a; i<=b; i++){
             if(i%1920==0 && i%2880==0){
                 e = true;
-                break;
-            }else{
-                e = false;
                 break;
             }
         }
